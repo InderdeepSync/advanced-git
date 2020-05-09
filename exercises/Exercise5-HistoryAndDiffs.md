@@ -105,7 +105,7 @@ Date:   Wed Oct 4 20:46:45 2017 -0700
 We can use `--diff-filter` to find commits where files have been renamed:
 
 ```
-$> git log --diff-filter=R --find-renames
+$> git log --diff-filter=R --oneline
 4b2b90e Replacing greeting with tokens for i18n
 ```
 
